@@ -1,0 +1,96 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2020 0.0. Build: 4708
+                Computer name:   DESKTOP-DDLLGBS
+                User name:   Ben
+                Processors:          Intel(R) Core(TM) i7-3770K CPU @ 3.50GHz
+                Memory:   16327 MB / 9827 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.19041)
+                CAD version:   SOLIDWORKS 2020 SP0.0
+                CPU speed:   3501 MHz
+
+    General Info
+                Model:   flow_sim.SLDASM
+                Project name:   Project(1)
+                Project path:   I:\solidworks_cfd_formula_24\assembly\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (not exclude internal spaces)
+                Exclude cavities without flow conditions :   Off
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -9.048 m
+                X max:   7.129 m
+                Y min:   0 m
+                Y max:   5.957 m
+                Z min:   -1.343 m
+                Z max:   1.797 m
+                X size:   16.177 m
+                Y size:   5.957 m
+                Z size:   3.140 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   56
+                Number of cells in Y:   19
+                Number of cells in Z:   14
+
+        Number Of Cells
+                Cells:   18609
+                Fluid cells:   18609
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+
+        Global Goals
+
+            GG Force (X) 1
+                Type:   Global Goal
+                Goal type:   Force (X)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Y) 2
+                Type:   Global Goal
+                Goal type:   Force (Y)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name             	Unit   	Value    	Progress   	Criteria      	Delta         	Use in convergence 
+                GG Force (X) 1   	N      	60.462   	100        	11.4259956    	0.760950511   	On                 
+                GG Force (Y) 2   	N      	-3.591   	100        	0.945975184   	0.807953302   	On                 
+
+    General Info
+                Run at:   DESKTOP-DDLLGBS
+                Number of cores:   8
+                Iterations:   69
+                CPU time:   0 s
+
+        Log
+                Mesh generation started	0:   16:58:22 , May 24
+                Mesh generation normally finished	0:   16:58:23 , May 24
+                Preparing data for calculation	0:   16:58:24 , May 24
+                Calculation started	0:   16:58:25 , May 24
+                Calculation has converged since the following criteria are satisfied:	69:   16:58:38 , May 24
+                    Goals are converged	69:   
+                Calculation finished	69:   16:58:38 , May 24

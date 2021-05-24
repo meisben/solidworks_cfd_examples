@@ -1,0 +1,7 @@
+2021-May-24 16:58:38
+Computer name:	DESKTOP-DDLLGBS
+Number of cores used in calculation:	8
+Configuration name:	Default
+Project name:	Project(1)
+
+Warnings on last iteration: 
